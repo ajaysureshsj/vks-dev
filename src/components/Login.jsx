@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
@@ -14,10 +15,21 @@ export const Login = () => {
         </div>
         <div className="mb-5">
           <Label className="font-sans text-md">Password</Label>
-          <Input type="password" name="password" className="font-sans text-md mt-2"/>
+          <Input
+            type="password"
+            name="password"
+            className="font-sans text-md mt-2"
+          />
         </div>
         <div>
-          <Button type="submit" className="bg-slate-50 text-gray-900 mt-5 w-full hover:bg-slate-200">Log In</Button>
+          <Link href="/dashboard">
+            <Button
+              type="submit"
+              className="bg-slate-50 text-gray-900 mt-5 w-full hover:bg-slate-200"
+            >
+              Log In
+            </Button>
+          </Link>
         </div>
       </form>
     </div>
