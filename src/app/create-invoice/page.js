@@ -187,7 +187,7 @@ const page = () => {
             <Input type="text" name="extraRemarks" className="font-sans mt-2" />
           </div>
         </div>
-        <Separator className="my-5 bg-gray-800" />
+        <Separator className="my-10 bg-gray-800" />
         <div className="flex justify-center mb-5">
           <Button
             type="button"
