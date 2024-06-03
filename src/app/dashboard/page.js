@@ -16,7 +16,6 @@ const Dashboard = () => {
         <Stats />
       </div>
       <div className="mt-5">
-        <DashboardOptions />
       </div>
       <Separator className="my-5 bg-gray-800" />
       <h2 className="text-2xl font-medium mt-5 text-center md:text-left">Recent Activity</h2>
