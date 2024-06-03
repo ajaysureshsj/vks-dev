@@ -1,6 +1,5 @@
 import React from "react";
 import Stats from "@/components/Stats";
-import DashboardOptions from "@/components/DashboardOptions";
 import InvoiceCard from "@/components/InvoiceCard";
 import SearchBar from "@/components/SearchBar";
 import { Separator } from "@/components/ui/separator";
